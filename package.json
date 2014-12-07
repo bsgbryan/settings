@@ -1,0 +1,25 @@
+{
+  "name": "settings",
+  "version": "1.0.0",
+  "description": "Get and set settings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bsgbryan/settings.git"
+  },
+  "keywords": [
+    "settings"
+  ],
+  "author": "Bryan Maynard <bsgbryan@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bsgbryan/settings/issues"
+  },
+  "homepage": "https://github.com/bsgbryan/settings",
+  "dependencies": {
+    "pyro": "^0.13.0"
+  }
+}
