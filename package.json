@@ -1,6 +1,6 @@
 {
   "name": "promise-settings",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get and set settings",
   "main": "index.js",
   "scripts": {
