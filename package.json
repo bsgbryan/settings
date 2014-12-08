@@ -1,5 +1,5 @@
 {
-  "name": "settings",
+  "name": "promise-settings",
   "version": "1.0.0",
   "description": "Get and set settings",
   "main": "index.js",
@@ -20,6 +20,14 @@
   },
   "homepage": "https://github.com/bsgbryan/settings",
   "dependencies": {
-    "pyro": "^0.13.0"
+    "firebase": "^2.0.6",
+    "pyro": "^0.13.0",
+    "q": "^1.1.2"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-coffee": "^0.12.0",
+    "grunt-env": "^0.4.2"
   }
 }
