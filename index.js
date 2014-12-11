@@ -15,7 +15,7 @@
   pyro.monitor('settings').progress(function(results) {
     if (!resolved) {
       resolved = true;
-      settings[results.value.name] = results.value.value;
+      settings = results.value.value;
       deferred.resolve({
         get: function(field) {
           return settings[field];

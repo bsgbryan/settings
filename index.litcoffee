@@ -10,7 +10,7 @@
       .progress (results) -> 
         unless resolved
           resolved = true
-          settings[results.value.name] = results.value.value
+          settings = results.value.value
           deferred.resolve
             get: (field       ) -> settings[field]
             set: (field, value) -> pyro.set "settings/#{field}", value
